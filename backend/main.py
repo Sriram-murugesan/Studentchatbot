@@ -51,3 +51,6 @@ async def ask(req: QuestionRequest):
         raise HTTPException(status_code=500, detail=f"Failed to get answer: {str(e)}")
     
     return {"answer": answer}
+@app.get("/")
+def home():
+    return {"message": "Student Chatbot API Running"}
