@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+pymupdf
+faiss-cpu
+groq
+python-dotenv
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+sentence-transformers
